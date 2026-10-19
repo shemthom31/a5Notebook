@@ -247,7 +247,7 @@ export function NotebookView({ notebook, onBack, onUpdatePage, onAddPage, onDele
                   <h2 className="text-[#1a1a1a] font-serif text-xl sm:text-2xl italic tracking-tight truncate pr-4">
                     {notebook.title}
                   </h2>
-                  <span className="text-xs sm:text-sm text-[#555] font-sans shrink-0 font-medium">
+                  <span className="text-xs sm:text-sm text-[#333] font-sans shrink-0 font-medium">
                     {formattedDate}
                   </span>
                 </div>
@@ -269,7 +269,7 @@ export function NotebookView({ notebook, onBack, onUpdatePage, onAddPage, onDele
 
                   {/* Action group */}
                   <div className="flex items-center gap-1.5">
-                    <span className="text-[9px] text-[#bbb] font-sans mr-1 hidden sm:block">
+                    <span className="text-[9px] text-[#777] font-sans mr-1 hidden sm:block">
                       {lastEditedTime}
                     </span>
                     <TBtn onClick={exportToPDF} title="Export page as PDF">

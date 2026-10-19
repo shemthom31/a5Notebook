@@ -63,7 +63,7 @@ html {
 /* Placeholder for empty editor */
 [contenteditable]:empty::before {
   content: attr(data-placeholder);
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.38);
   font-style: italic;
   pointer-events: none;
 }
