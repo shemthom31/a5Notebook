@@ -1,0 +1,13 @@
+[build]
+  command   = "npm run build"
+  publish   = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA fallback: serve index.html for every route so the client-side
+# app handles its own navigation without Netlify returning a 404.
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
