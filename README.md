@@ -52,7 +52,7 @@ All notes persist locally in the browser. No accounts, no cloud, no friction.
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/a5notebooks.git
+git clone https://github.com/shemthom31/a5notebooks.git
 cd a5notebooks
 
 # Install dependencies
